@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body{
+    background-image: url(../img/space.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    padding-top: 250px;
+}
+
+.title{
+    font-size: 65px;
+    color: white;
+    text-align: center;
+}
+
+section .cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 200px 0;
+}
+
+section .card{
+    cursor: pointer;
+    transition: all 2s ease;
+    height: 500px;
+    width: 400px;
+    margin: 50px 0;
+}
