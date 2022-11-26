@@ -20,7 +20,7 @@ header{
 
 .title{
     font-size: 65px;
-    color: white;
+    color: yellow;
     text-align: center;
 }
 
@@ -37,4 +37,12 @@ section .card{
     height: 500px;
     width: 400px;
     margin: 50px 0;
+}
+
+img{
+    opacity: 0.4;
+}
+
+footer div{
+    color: rgb(92, 92, 92);
 }
